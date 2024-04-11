@@ -1,0 +1,58 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.heroContainer {
+  background-color: #8755f1;
+  width: 45%;
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  font-size: x-large;
+  box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.heroImage {
+  width: 200px;
+  max-width: 80%;
+  padding-bottom: 25px;
+}
+
+.formContainer {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.error-message {
+  color: red;
+  height: 40px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rememberMe {
+  margin: 0px 0px 20px 0px;
+}
+
+button {
+  color: #8755f1;
+}

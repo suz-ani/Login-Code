@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Bootstap and Custom Styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstap and Custom Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- Hero Side -->
+      <div class="heroContainer">
+        <img src="TAI.png" class="heroImage" alt="Hero Image">
+        <h1>Welcome to InventTai!</h1>
+        <p>Manage all your inventory analytics and forecasting needs in one place.</p>
+      </div>
+      <!-- Form Side -->
+      <div class="formContainer">
+        <div style="width: 50%;">
+          <h1>Sign In</h1>
+          <form id="loginForm">
+            <div class="form-group">
+              <input type="email" class="form-control border-dark" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control border-dark" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="form-group text-right">
+              <a href="#">Forgot password?</a>
+            </div>
+            <div class="form-check rememberMe">
+              <input type="checkbox" class="form-check-input" id="rememberMe">
+              <label class="form-check-label" for="rememberMe">Remember me</label>
+            </div>          
+            <button type="submit" class="btn btn-primary mr-2">Login</button>
+            <a href="https://www.figma.com/proto/ZablHvbDAogZh2S4HHvBO3/Project-6-%7C-invenTAI?page-id=1%3A3&type=design&node-id=445-1642&viewport=-2754%2C677%2C0.14&t=uXFOtO32xmrXYhwb-1&scaling=scale-down&starting-point-node-id=445%3A1642&show-proto-sidebar=1&mode=design" class="btn btn-light border-dark">Register</a>
+          </form>
+        </div>
+        <div id="errorMessage" class="error-message"></div>
+      </div>
+      
+    </div>
+  </body>
+
+</html>
